@@ -9,8 +9,8 @@ class Database:
     self.cluster is the Cassandra cluster representation, later used to connect to using connect() method.
     self.session object holds the connected session and can be used to execute queries against the database.
     """
-    def __init__(self, host: str, port: int, keyspace: str):
-        self.cluster = Cluster(hosts=[host], port=port)
+    def __init__(self, hosts: list, port: int, keyspace: str):
+        self.cluster = Cluster(hosts=hosts, port=port)
         self.keyspace = keyspace
         self.session = NotImplemented
 
