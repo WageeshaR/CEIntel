@@ -1,12 +1,14 @@
 # CEIntel: AI engine of [CollabEd](https://github.com/wageeshar/collabed.git)
 
+CEIntel uses the power of deep learning and natural language processing to process, learn, memorise
+and generate content using latest technologies:
+* networks (e.g., transformers, LSTM, RNN, MLP)
+* text embedding and encoding tools (e.g., BERT, Word2Vec)
+
 ## Components
 
-### Preprocessor
-CEIntel Preprocessor is responsible for data cleansing, de-noising and formatting depending on the _source_ and _destination_ of data.
-Source is where the data is ingested from (e.g., a database collection/table) and destination is the algorithm data is fed to.
-Depending on the data load and/or structure, preprocessor dispatches jobs either to regular in-memory processor or distributed Apache Spark cluster.
-
-### Intel provider
+### Banglia [[see here]](banglia/banglia.md)
+### Tlobe [[see here]](tlobe/tlobe.md)
+### Protex [[see here]](protex/protex.md)
 
 
