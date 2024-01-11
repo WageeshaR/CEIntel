@@ -11,3 +11,4 @@ graphviz~=0.20.1
 matplotlib~=3.8.2
 datasets~=2.16.0
 jupyter
+cassandra-driver~=3.29.0
