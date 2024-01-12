@@ -6,7 +6,6 @@ import os
 
 from cassandra.cluster import Cluster
 from cassandra.cqlengine.connection import register_connection, set_default_connection
-from data.schema.post import Post
 
 
 class Database:
