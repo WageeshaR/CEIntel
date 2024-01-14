@@ -1,3 +1,0 @@
-# BANGLIA
-
-Banglia does major preprocessing of data before being used by [_tlobe_](../tlobe/tlobe.md) and [_protex_](../protex/protex.md). _Banglia_ is an acronym to _basal ganglia_, a part of brain does sensory filtering, a form of preprocessing of information. [[curious?]](https://news.mit.edu/2019/how-brain-ignores-distractions-0612#:~:text=MIT%20neuroscientists%20have%20now%20identified,or%20other%20distracting%20sensory%20stimuli.) 

@@ -1,9 +1,9 @@
 import tensorflow as tf
 from datetime import datetime
 from official.nlp.data import classifier_data_lib
-from banglia.document import *
-from tlobe.util.fn_builder import model_fn_builder, input_fn_builder
-from tlobe.util.tokenization import create_tokenizer_from_hub_module
+from preprocess.document import *
+from train.util.fn_builder import model_fn_builder, input_fn_builder
+from train.util.tokenization import create_tokenizer_from_hub_module
 
 np.random.seed(1337)
 OUTPUT_DIR = './output'
