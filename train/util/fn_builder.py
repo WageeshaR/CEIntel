@@ -103,9 +103,9 @@ def input_fn_builder(features, seq_length, is_training, drop_remainder):
 
 
 def create_model(is_predicting, input_ids, input_mask, segment_ids, labels, num_labels, model_handle):
-    bert_module = hub.Module(model_handle, trainable=True)
+    bert_model = hub.Module(model_handle, trainable=True)
     bert_inputs = dict(input_ids=input_ids, input_mask=input_mask, segment_ids=segment_ids)
-    bert_outputs = bert_module(inputs=bert_inputs, signature="tokens", as_dict=True)
+    bert_outputs = bert_model(inputs=bert_inputs, signature="tokens", as_dict=True)
 
     output_layer = bert_outputs["pooled_output"]
     output_layer1 = bert_outputs["pooled_output"]
